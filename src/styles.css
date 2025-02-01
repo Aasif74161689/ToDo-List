@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.to-do-list {
+  text-align: center;
+  margin-top: 130px;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+}
+
+button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: green;
+}
+
+.add-button:hover {
+  background-color: rgb(9, 218, 148);
+}
+
+.delete-button {
+  background-color: coral;
+}
+
+.delete-button:hover {
+  background-color: rgb(142, 41, 5);
+}
+
+.update-button {
+  background-color: rgb(40, 9, 71);
+}
+
+.update-button:hover {
+  background-color: rgb(121, 73, 188);
+}
+
+input[type="text"] {
+  font-size: 16px;
+  padding: 7px;
+  bottom: 2px solid black;
+  border-radius: 5px;
+  color: black;
+}
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(234, 230, 223);
+  margin-bottom: 10px;
+  border: 3px solid rgb(234, 230, 223);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task {
+  margin: 10px;
+}
+
+.delete-button,
+.update-button {
+  margin: 5px;
+}
